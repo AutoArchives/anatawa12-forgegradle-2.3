@@ -13,10 +13,15 @@ This project is a fork of [ForgeGradle branch 'FG_2.3'](https://github.com/Minec
 
 Example project is now Work In Progress. please wait.
 
+## How to create project with this ForgeGradle instead of official ForgeGradle
+
+1. Download MDK from official Forge
+2. Follow [How to use this ForgeGradle instead of official ForgeGradle](#how-to-use-this-forgegradle-instead-of-official-forgegradle) to replace MDK
+
 ## How to use this ForgeGradle instead of official ForgeGradle
 
-- add jcenter() if not added in repositories in buildscript block.
-- replace "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT" with "com.anatawa12.forge:ForgeGradle:2.3-1.0.1"
+1. add `mavenCentral()` if not added in repositories in buildscript block.
+2. replace "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT" with "com.anatawa12.forge:ForgeGradle:2.3-1.0.1"
 
 if you aren't add any libraries for buildscript, you may able to use buildscript block shown below:
 
